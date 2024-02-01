@@ -5,5 +5,7 @@ The task was to create a web server that can be spooled up easily and is also a 
 Currently I have implemented a simple restful API as my web server, it only has one endpoint at localhost:8000/time
 
 To run the web server: uvicorn main:app --reload (This must be from inside the SRC folder)
+Alternatively, uvicorn src.main:app --reload can be used from root folder.
+
 Once running, you will find the auto-docs (feature of fastAPI) at localhost:8000/docs
 The endpoint which satisfies the lab is at localhost:8000/time
