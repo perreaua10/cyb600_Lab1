@@ -6,6 +6,7 @@ app = FastAPI() #creating our 'app' here. this is what we call in our command to
 
 #TO RUN: uvicorn main:app --reload
 #This must be from inside the SRC folder
+#Alternatively, uvicorn src.main:app --reload can be used from root folder.
 
 
 @app.get("/time", response_class=HTMLResponse)
