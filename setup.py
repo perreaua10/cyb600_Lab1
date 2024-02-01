@@ -23,7 +23,7 @@ class OverrideInstall(install):
 
 setup(
     name='cyb600-lab1-perreaua10',
-    version='1.0.0',
+    version='1.0.1',
     author_email='perreaua@canisius.edu',
     author='Andrew Perreault',
     packages=find_packages(
