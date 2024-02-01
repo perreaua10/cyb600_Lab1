@@ -22,8 +22,8 @@ class OverrideInstall(install):
                 os.chmod(filepath, mode)
 
 setup(
-    name='cyb600-lab1-perreaua10',
-    version='1.0.1',
+    name='cyb600_lab1_perreaua10',
+    version='1.1.0',
     author_email='perreaua@canisius.edu',
     author='Andrew Perreault',
     packages=find_packages(
